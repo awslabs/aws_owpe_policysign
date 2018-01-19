@@ -42,7 +42,7 @@ From PE console 'allow_unauthenticated_ca' config must be set to 'true' under pu
 ## Usage
 NOTE: This module requires access to puppetlabs-stdlib module. Assuming that the modules are available under /home/ec2-user directory, one can run this module as below:
 
-puppet apply  --modulepath /home/ec2-user npark-owpepolicysign/examples/init.pp
+puppet apply  --modulepath /home/ec2-user aws_owpe_policysign//examples/init.pp
 
 ## Reference
 

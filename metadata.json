@@ -1,11 +1,11 @@
 {
-  "name": "awsandrewpark-owpepolicysign",
+  "name": "aws_owpe_policysign",
   "version": "0.1.0",
   "author": "Andrew Park",
   "summary": "This module applies configuration to your OWPE instance so that it will enable Policy-based auto signing (some default values are provided)",
   "license": "Apache-2.0",
-  "source": "https://github.com/aws-npark/owpepolicysign.git",
-  "issues_url": "https://github.com/aws-npark/owpepolicysign/issues",
+  "source": "https://github.com/awslabs/aws_owpe_policysign.git",
+  "issues_url": "https://github.com/awslabs/aws_owpe_policysign/issues",
   "dependencies": [
 
   ],
