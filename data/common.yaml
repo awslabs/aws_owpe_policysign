@@ -8,22 +8,22 @@
 # or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 #
 ---
-owpepolicysign::packages:
+aws_owpe_policysign::packages:
   - jq
   - aws-cli
 
-owpepolicysign::autosign:
+aws_owpe_policysign::autosign:
   configdir: '/opt/puppetlabs/autosign'
   script:  'autosign.sh'
   user: 'pe-puppet'
   group: 'pe-puppet'
   mode: '0750'
 
-owpepolicysign::puppetconf:
+aws_owpe_policysign::puppetconf:
   conffile:      '/etc/puppetlabs/puppet/puppet.conf'
   autosignentry: 'autosign = /opt/puppetlabs/autosign/autosign.sh'
 
-owpepolicysign::awsconfig:
+aws_owpe_policysign::awsconfig:
   configdir: '/opt/puppetlabs/server/data/puppetserver/.aws'
   configfile: 'config'
   credentials: 'credentials'
