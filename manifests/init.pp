@@ -9,10 +9,10 @@
 #
 
 class aws_owpe_policysign (
-  $packages       = lookup({'name' => 'owpepolicysign::packages', 'default_value' => {}, 'merge' => {'strategy' => 'deep', 'merge_hash_arrays' => true}}),   # lint:ignore:140chars
-  $autosignconfig = lookup({'name' => 'owpepolicysign::autosign', 'default_value' => {}, 'merge' => {'strategy' => 'deep', 'merge_hash_arrays' => true}}),   # lint:ignore:140chars
-  $puppetconf     = lookup({'name' => 'owpepolicysign::puppetconf', 'default_value' => {}, 'merge' => {'strategy' => 'deep', 'merge_hash_arrays' => true}}), # lint:ignore:140chars
-  $awsconfig      = lookup({'name' => 'owpepolicysign::awsconfig', 'default_value' => {}, 'merge' => {'strategy' => 'deep', 'merge_hash_arrays' => true}})   # lint:ignore:140chars
+  $packages       = lookup({'name' => 'aws_owpe_policysign::packages', 'default_value' => {}, 'merge' => {'strategy' => 'deep', 'merge_hash_arrays' => true}}),   # lint:ignore:140chars
+  $autosignconfig = lookup({'name' => 'aws_owpe_policysign::autosign', 'default_value' => {}, 'merge' => {'strategy' => 'deep', 'merge_hash_arrays' => true}}),   # lint:ignore:140chars
+  $puppetconf     = lookup({'name' => 'aws_owpe_policysign::puppetconf', 'default_value' => {}, 'merge' => {'strategy' => 'deep', 'merge_hash_arrays' => true}}), # lint:ignore:140chars
+  $awsconfig      = lookup({'name' => 'aws_owpe_policysign::awsconfig', 'default_value' => {}, 'merge' => {'strategy' => 'deep', 'merge_hash_arrays' => true}})   # lint:ignore:140chars
 ) {
   # Setup packages
   each($packages) | $package | {
