@@ -1,0 +1,11 @@
+.idea/
+log/
+path/
+spec/fixtures/manifests
+spec/fixtures/modules
+junit/
+.bundle/
+.project
+.yardoc
+pkg
+Gemfile.lock
