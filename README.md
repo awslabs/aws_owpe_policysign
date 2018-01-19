@@ -10,7 +10,7 @@ This library is licensed under the Apache 2.0 License.
 
 1. [Description](#description)
 2. [Setup](#setup)
-    * [What owpepolicysign affects](#what-owpepolicysign-affects)
+    * [What aws_owpe_policysign affects](#what-aws_owpe_policysign-affects)
     * [Setup requirements](#setup-requirements)
 3. [Usage - Configuration options and additional functionality](#usage)
 4. [Reference](#reference)
@@ -22,7 +22,7 @@ OpsWorks Puppet Enterprise (OWPE) is an AWS service offering that provisions PE 
 
 ## Setup
 
-### What owpepolicysign affects
+### What aws_owpe_policysign affects
 
 The following files will be impacted:
 * /etc/puppetlabs/puppet/puppet.conf
