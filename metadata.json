@@ -1,5 +1,5 @@
 {
-  "name": "aws_owpe_policysign",
+  "name": "awslabs-aws_owpe_policysign",
   "version": "0.1.0",
   "author": "Andrew Park",
   "summary": "This module applies configuration to your OWPE instance so that it will enable Policy-based auto signing (some default values are provided)",
